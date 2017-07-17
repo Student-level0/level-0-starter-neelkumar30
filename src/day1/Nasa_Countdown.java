@@ -1,5 +1,7 @@
 package day1;
 
+import javax.swing.JOptionPane;
+
 public class Nasa_Countdown {
 public static void main(String[] args) {
 	// Copyright Wintriss Technical Schools 2013
@@ -20,16 +22,23 @@ public static void main(String[] args) {
 	 **/
 	
 			// 2. ask the user when to start (JOptionPane.showInputDialog)
+	String start = JOptionPane.showInputDialog("Where should the countdown start?");
 			// 3. convert the user's answer to an int (Integer.parseInt)
+	int x = Integer.parseInt(start);
 
 			// 4. countdown from user's starting point
+	
 			// 1. countdown from 10 to 0
-	for (int i = 10; i >-1 ; i--) {
+	for (int i=x; i >-1 ; i--) {
 		System.out.println(i);
+		speak(i+"");
 		
 	}
 
 			// 5. when the counting is done, print "blastoff!"
+		System.out.println("Blastoff!");
+		speak("Blastovf!");
+	
 		}
 
 	static void speak(String words) {
