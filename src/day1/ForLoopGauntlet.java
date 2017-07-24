@@ -2,7 +2,7 @@ package day1;
 
 public class ForLoopGauntlet {
 public static void main(String[] args) {
-challenge5();
+challenge10();
 	
 }
 public static void challenge1(){
@@ -39,6 +39,61 @@ else{
 System.out.println(" odd");
 }
 }
+}
+
+
+public static void challenge6(){
+for (int i = 7; i < 778; i=i+7) {
+	System.out.println(i);
+
+}
+}
+
+public static void challenge7(){
+for (int i = 0; i < 3; i=i+1) {
+	for (int j = 0; j <3; j++) {
+		
+	
+	System.out.println(i + " " + j);
+	}
+}
+}
+
+public static void challenge8(){
+for (int i = 1; i < 10; i=i+3) {
+	for (int j = i; j < i + 3; j++) {
+		
+	
+	
+	System.out.print(j);
+	}	
+	System.out.println();
+}
+	
+}
+
+public static void challenge9(){
+for (int i = 1; i < 101; i=i+10) {
+	for (int j = i; j < i + 10; j++) {
+		
+	
+	
+	System.out.print(" " + j);
+	}	
+	System.out.println();
+}	
+}
+
+public static void challenge10(){
+for (int i = 1; i <8 ; i=i+1) {	
+	for (int j = 0; j < i; j++) {
+		
+	
+	System.out.print("*");	
+	}
+	System.out.println();
+}	
+}
 
 
 
@@ -46,4 +101,14 @@ System.out.println(" odd");
 
 
 }
-}
+
+
+
+
+
+
+
+
+
+
+
